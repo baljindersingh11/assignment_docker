@@ -37,6 +37,6 @@ jobs:
       - name: Build & push mysql
         run: |
           MYSQL_URI=${{ secrets.ECR_MYSQL_URI }}
-          docker build -t mysqlapp:latest -f Dockerfile.mysql .
+          docker build -t mysqlapp:latest -f Dockerfile_mysql .
           docker tag mysqlapp:latest ${MYSQL_URI}:latest
           docker push ${MYSQL_URI}:latest
