@@ -39,4 +39,8 @@ export DBPWD=pw
 ```
 ### Run the application, make sure it is visible in the browser
 ```docker run -p 8080:8080  -e DBHOST=$DBHOST -e DBPORT=$DBPORT -e  DBUSER=$DBUSER -e DBPWD=$DBPWD  my_app```
-### Assignment2 started
+
+### First push in the dev for assignment one
+
+
+
